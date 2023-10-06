@@ -3793,10 +3793,13 @@ input, select, textarea {
 			#main > .post.featured {
 				text-align: center;
 				display: flex;
-				justify-content: center;
 				align-items: center;
+				flex-direction: column;
 			}
 
+			#main > .post.featured .image.main img {
+				max-width: 100%;
+			}
 			#main > .post > .caja{
 				margin: 20px;
 				padding: 20px;
